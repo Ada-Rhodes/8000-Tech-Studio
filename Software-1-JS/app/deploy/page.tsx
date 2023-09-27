@@ -26,8 +26,9 @@ export default function Deploy() {
           or something else. There is no step by step guide. The following is a
           list of resources for you to use that will help you on your journey.
           As a professional software developer I can attest that most of your
-          time isn't spent coding and that years into your career you will still
-          be Googling <i>"how to do _____ in &lt;programming language&gt;"</i>.
+          time isn&apos;t spent coding and that years into your career you will
+          still be Googling{" "}
+          <i>&quot;how to do _____ in &lt;programming language&gt;&quot;</i>.
         </div>
         <div className="m-4 align-center text-lg">
           Google does better then Bing for me when it comes to searching for
@@ -35,22 +36,23 @@ export default function Deploy() {
         </div>
         <div className="m-4 align-center text-lg">
           StackOverflow is a good tool but you must be careful when using code
-          without understanding it. When you see something you don't know,
+          without understanding it. When you see something you don&apos;t know,
           <pre className="inline"> reduce() </pre>in JavaScript for eaxmple,
-          searching for "javascript reduce" will likely result in the top tow
-          links being W3Schools and MDN. These are both excelent resources for
-          how to use HTML, CSS, JavaScript. W3S is typically more succient and
-          beginner friendly which contrasts with MDN providing extensive details
-          and edge cases.
+          searching for &quot;javascript reduce&quot; will likely result in the
+          top tow links being W3Schools and MDN. These are both excelent
+          resources for how to use HTML, CSS, JavaScript. W3S is typically more
+          succient and beginner friendly which contrasts with MDN providing
+          extensive details and edge cases.
         </div>
         <div className="m-4 align-center text-lg">
           If you are using a backend like NextJS, GatsbyJS, or Express; the
-          official documentation on the project's website is your best friend.
-          There will at least be "Installation" and "Getting Started" guides in
-          addition to documentation for all the library/framework features.
+          official documentation on the project&apos;s website is your best
+          friend. There will at least be &quot;Installation&quot; and
+          &quot;Getting Started&quot; guides in addition to documentation for
+          all the library/framework features.
         </div>
         <div className="m-4 align-center text-lg">
-          If you want to deploy your code online for free once it's done, I
+          If you want to deploy your code online for free once it&apos;s done, I
           reccomend the following:{" "}
           <u>
             <Link href="https://education.github.com/benefits?type=student">

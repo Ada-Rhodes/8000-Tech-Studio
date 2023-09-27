@@ -1,7 +1,5 @@
 import Link from "next/link";
 import { Back } from "../buttons";
-import tools from "./tools.mp4";
-import hello from "./hello.mp4";
 
 const code = `const express = require('express')
 const app = express()
@@ -31,19 +29,20 @@ export default function Try() {
       </div>
 
       <div className="flex flex-col w-1/2">
-        <h2 className="text-xl mb-2">How to "Hello, World!"</h2>
+        <h2 className="text-xl mb-2">How to &quot;Hello, World!&quot;</h2>
         <div className="mb-2">
           <p>
-            The purpose of "Hello, World!" is to set up your computer to read,
-            write, edit, and execute code. By simply displaying that text on the
-            screen we have evidence that our coding environment is set up and
-            ready (enough) to move forward.
+            The purpose of &quot;Hello, World!&quot; is to set up your computer
+            to read, write, edit, and execute code. By simply displaying that
+            text on the screen we have evidence that our coding environment is
+            set up and ready (enough) to move forward.
           </p>
         </div>
         <div>
-          1. Install VSCode. Or don't, it's full of Microsoft trackers that are
-          enabled by default. Thanks to the miracle of FOSS (Free and Open
-          Source Software), there is a fork that has all the trackers removed.{" "}
+          1. Install VSCode. Or don&apos;t, it&apos;s full of Microsoft trackers
+          that are enabled by default. Thanks to the miracle of FOSS (Free and
+          Open Source Software), there is a fork that has all the trackers
+          removed.{" "}
           <Link href="https://vscodium.com/">
             Download and install it from https://vscodium.com/
           </Link>
@@ -52,7 +51,8 @@ export default function Try() {
           2. Install NodeJS. The front-end web is JavaScript so why not use it
           for your back-end too?{" "}
           <Link href="https://nodejs.org/en">
-            Download and install the "LTS release" from https://nodejs.org/en
+            Download and install the &quot;LTS release&quot; from
+            https://nodejs.org/en
           </Link>
         </div>
         <div>
@@ -60,13 +60,15 @@ export default function Try() {
           keep your code visually consistant for easier reading and sharing.
           ESLint is a static code analysis tool that will help you fix problems
           in your code before you even run it.
-          <video controls src={tools} />
+          <video controls src="/tools.mp4" />
         </div>
         <div>
-          6. Hello, World! <video controls src={hello} />
+          6. Hello, World! <video controls src="/hello.mp4" />
           <pre className="bg-slate-200 m-2">{code}</pre>
         </div>
-        <div>Congratulations, you've created a web app with JavaScript!</div>
+        <div>
+          Congratulations, you&apos;ve created a web app with JavaScript!
+        </div>
       </div>
     </main>
   );
